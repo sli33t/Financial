@@ -1,0 +1,3 @@
+cn\itcast\page\PageApplication.class
+cn\itcast\page\controller\PageController.class
+cn\itcast\page\service\LoanService.class

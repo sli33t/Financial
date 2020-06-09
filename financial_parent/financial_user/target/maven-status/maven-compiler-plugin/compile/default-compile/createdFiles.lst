@@ -1,0 +1,6 @@
+cn\itcast\user\domain\User.class
+cn\itcast\user\service\UserService.class
+cn\itcast\user\dao\UserDao.class
+cn\itcast\user\UserApplication.class
+cn\itcast\user\service\impl\UserServiceImpl.class
+cn\itcast\user\controller\UserController.class

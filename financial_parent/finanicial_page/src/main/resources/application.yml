@@ -1,0 +1,27 @@
+spring:
+  thymeleaf:
+    cache: false
+  application:
+    name: financial-page
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/financial?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+      username: root
+      password: root
+server:
+  port: 9003
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+
+
+
+#feign的配置，连接超时及读取超时配置
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
